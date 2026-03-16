@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#0B0E11</color>
+    <color name="surface">#151921</color>
+    <color name="primary">#00D09C</color>
+    <color name="primary_variant">#00A37A</color>
+    <color name="secondary">#1E2329</color>
+    <color name="text_primary">#EAECEF</color>
+    <color name="text_secondary">#848E9C</color>
+    <color name="profit">#00C087</color>
+    <color name="loss">#F6465D</color>
+    <color name="glass_white">#1AFFFFFF</color>
+    <color name="divider">#2B3139</color>
+</resources>

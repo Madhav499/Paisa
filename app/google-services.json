@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "958366023705",
+    "project_id": "madhav-1d10a",
+    "storage_bucket": "madhav-1d10a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958366023705:android:ed88c9ad877f55e47aaa88",
+        "android_client_info": {
+          "package_name": "com.example.paisa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOHahmdC_6F2Qs6RFEzHpldlpTYL_EETQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

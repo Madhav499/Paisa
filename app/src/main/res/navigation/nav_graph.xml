@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.paisa.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_markets"
+        android:name="com.example.paisa.fragments.MarketsFragment"
+        android:label="Markets"
+        tools:layout="@layout/fragment_markets" />
+
+    <fragment
+        android:id="@+id/nav_watchlist"
+        android:name="com.example.paisa.fragments.WatchlistFragment"
+        android:label="Watchlist"
+        tools:layout="@layout/fragment_watchlist" />
+
+    <fragment
+        android:id="@+id/nav_portfolio"
+        android:name="com.example.paisa.fragments.PortfolioFragment"
+        android:label="Portfolio"
+        tools:layout="@layout/fragment_portfolio" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.paisa.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_stock_detail"
+        android:name="com.example.paisa.fragments.StockDetailFragment"
+        android:label="Stock Detail"
+        tools:layout="@layout/fragment_stock_detail">
+        <argument
+            android:name="symbol"
+            app:argType="string" />
+    </fragment>
+</navigation>

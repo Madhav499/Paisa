@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    android:backgroundTint="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_portfolio_symbol"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RELIANCE"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_portfolio_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 Qty"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView style="@style/TextStyle.Body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Avg. Price" android:textSize="10sp"/>
+                <TextView android:id="@+id/tv_portfolio_avg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹ 2,800.00" android:textColor="@color/white" android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView style="@style/TextStyle.Body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LTP" android:textSize="10sp"/>
+                <TextView android:id="@+id/tv_portfolio_ltp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹ 2,985.40" android:textColor="@color/white" android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="end">
+                <TextView style="@style/TextStyle.Body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="P&amp;L" android:textSize="10sp"/>
+                <TextView android:id="@+id/tv_portfolio_pnl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+₹ 1,854.00" android:textColor="@color/profit" android:textSize="12sp" android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

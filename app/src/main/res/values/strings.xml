@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Paisa</string>
+    <string name="title_home">Home</string>
+    <string name="title_markets">Markets</string>
+    <string name="title_watchlist">Watchlist</string>
+    <string name="title_portfolio">Portfolio</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+
+    <string name="total_portfolio_value">Total Portfolio Value</string>
+    <string name="today_pnl">Today\'s P&amp;L</string>
+    <string name="total_returns">Total Returns</string>
+    <string name="market_summary">Market Summary</string>
+    <string name="trending_stocks">Trending Stocks</string>
+
+    <string name="search_hint">Search stocks (e.g. RELIANCE)</string>
+    <string name="empty_watchlist">No stocks in your watchlist</string>
+    <string name="your_holdings">Your Holdings</string>
+
+    <string name="buy">BUY</string>
+    <string name="sell">SELL</string>
+    <string name="performance">Performance</string>
+    <string name="open">Open</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="prev_close">Prev. Close</string>
+
+    <string name="logout">Logout</string>
+    <string name="verified_account">Verified Account</string>
+</resources>

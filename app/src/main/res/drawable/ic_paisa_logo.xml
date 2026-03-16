@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Dark Background Circle -->
+    <path
+        android:fillColor="#151921"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+    <!-- Rupee Symbol -->
+    <path
+        android:fillColor="#00D09C"
+        android:pathData="M70,60h60v10h-60zM70,80h60v10h-60zM100,90c20,0 30,15 30,30s-10,30 -30,30h-10l30,30h-15l-30,-30h-5v30h-10v-60h15c15,0 20,-10 20,-20s-5,-20 -20,-20h-15v-10h15z" />
+    <!-- Rising Arrow -->
+    <path
+        android:fillColor="#00D09C"
+        android:pathData="M140,140l20,-20l10,10l0,-30l-30,0l10,10l-20,20z" />
+</vector>
